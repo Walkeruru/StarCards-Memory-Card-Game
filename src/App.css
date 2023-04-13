@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Starjedi";
+    src: local("Starjedi"),
+     url("./fonts/Starjedi.ttf") format("truetype");
+    font-weight: bold;
+}
+
+.logo{
+    font-family: Starjedi;
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+}
+
+@media (min-width:1600px) {
+    .grid{
+        margin-left: 4em;
+    }
+}
